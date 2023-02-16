@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Информация об автомобилях</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="mainHead">
@@ -14,12 +14,12 @@
                 <h2 class="textInButton">Главная</h2>
             </button>
         </form>
-        <form action="/catalog.html">
+        <form action="/pages/catalog.html">
             <button class="buttonInMainHead">
                 <h2 class="textInButton">Каталог</h2>
             </button>
         </form>
-        <form action="/info.html">
+        <form action="/pages/info.html">
             <button class="buttonInMainHead">
                 <h2 class="textInButton">Информация</h2>
             </button>
@@ -33,29 +33,52 @@
         <div class="head">
             <h2>Быстрая навигация</h2>
             <table class="table">
-                <tr class="td">
-                    <td><a href="#Chinese">Китайские</a></td>
-                    <td><a href="#Japanese">Японские</a></td>
-                    <td><a href="#Russian">Российские</a></td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr class="td">
-                    <td><a href="#German">Немецкие</a></td>
-                    <td><a href="#European">Европейские</a></td>
-                    <td><a href="#Korean">Корейские</a></td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr class="td">
-                    <td><a href="#American">Американские</a></td>
-                </tr>
+                <form action="#Chinese">
+                    <button class="buttonInMainHead">
+                        <h2 class="textInButton">Китайские</h2>
+                    </button>
+                </form>
+                <form action="#Japanese">
+                    <button class="buttonInMainHead">
+                        <h2 class="textInButton">Японские</h2>
+                    </button>
+                </form>
+                <form action="#Russian">
+                    <button class="buttonInMainHead">
+                        <h2 class="textInButton">Российские</h2>
+                    </button>
+                </form>
+                <form action="#German">
+                    <button class="buttonInMainHead">
+                        <h2 class="textInButton">Немецкие</h2>
+                    </button>
+                </form>
+                <form action="#European">
+                    <button class="buttonInMainHead">
+                        <h2 class="textInButton">Европейские</h2>
+                    </button>
+                </form>
+                <form action="#Korean">
+                    <button class="buttonInMainHead">
+                        <h2 class="textInButton">Корейские</h2>
+                    </button>
+                </form>
+                <form action="#American">
+                    <button class="buttonInMainHead">
+                        <h2 class="textInButton">Американские</h2>
+                    </button>
+                </form>
             </table>
             <p>(нажми для быстрого перехода)</p>
             <h2>Марки автомобилей:</h2>
         </div>
         <div class="head">
-            <h2><a name="Chinese">Китайские</a></h2>
+            <form action="">
+                <button class="buttonInMainHead">
+                    <h2 class="textInButton"><a name="Chinese">Китайские</a></h2>
+                </button>
+                <P>(нажми для перехода)</P>
+            </form>
             <p>Изветстные китайские производители:</p>
             <ul class="list">
                 <li><img src="/source/img/Chinese/chery.png" class="imgForList">Chery</li>
@@ -66,7 +89,12 @@
                 <li><img src="/source/img/Chinese/saic.png" class="imgForList">SAIC</li>
                 <li><img src="/source/img/Chinese/baw.png" class="imgForList">BAW </li>
             </ul>
-            <h2><a name="Japanese">Японские</a></h2>
+            <form action="">
+                <button class="buttonInMainHead">
+                    <h2 class="textInButton"><a name="Japanese">Японские</a></h2>
+                </button>
+                <P>(нажми для перехода)</P>
+            </form>
             <ul class="list">
                 <li><img src="/source/img/Japanese/honda.png" class="imgForList">Honda</li>
                 <li><img src="/source/img/Japanese/toyota.png" class="imgForList">Toyota</li>
@@ -80,14 +108,24 @@
                 <li><img src="/source/img/Japanese/lexus.png" class="imgForList">Lexus</li>
                 <li><img src="/source/img/Japanese/mazda.png" class="imgForList">Mazda</li>
             </ul>
-            <h2><a name="Russian">Российские</a></h2>
+            <h2><a name="Russian"><form action="">
+                <button class="buttonInMainHead">
+                    <h2 class="textInButton"><a name="Russian">Российские</a></h2>
+                </button>
+                <P>(нажми для перехода)</P>
+            </form></a></h2>
             <ul class="list">
                 <li><img src="/source/img/Russian/vaz.png" class="imgForList">ВАЗ</li>
                 <li><img src="/source/img/Russian/gaz.png" class="imgForList">ГАЗ</li>
                 <li><img src="/source/img/Russian/moscvich.png" class="imgForList">Москвич</li>
                 <li><img src="/source/img/Russian/uaz.png" class="imgForList">УАЗ</li>
             </ul>
-            <h2><a name="German">Немецкие</a></h2>
+            <form action="">
+                <button class="buttonInMainHead">
+                    <h2 class="textInButton"><a name="German">Немецкие</a></h2>
+                </button>
+                <P>(нажми для перехода)</P>
+            </form>
             <ul class="list">
                 <li><img src="/source/img/German/audi.png" class="imgForList">Audi</li>
                 <li><img src="/source/img/German/bmw.png" class="imgForList">BMW</li>
@@ -96,7 +134,12 @@
                 <li><img src="/source/img/German/volkswagen.png" class="imgForList">Volkswagen</li>
                 <li><img src="/source/img/German/porsche.png" class="imgForList">Porsche</li>
             </ul>
-            <h2><a name="European">Европейские</a></h2>
+            <form action="">
+                <button class="buttonInMainHead">
+                    <h2 class="textInButton"><a name="European">Европейские</a></h2>
+                </button>
+                <P>(нажми для перехода)</P>
+            </form>
             <ul class="list">
                 <li><img src="/source/img/European/rolls royce.png" class="imgForList">Rolls-Royce</li>
                 <li><img src="/source/img/European/rover.png" class="imgForList">Rover</li>
@@ -107,14 +150,24 @@
                 <li><img src="/source/img/European/citroen.png" class="imgForList">Citroen</li>
                 <li><img src="/source/img/European/volvo.png" class="imgForList">Volvo</li>
             </ul>
-            <h2><a name="Korean">Корейские</a></h2>
+            <form action="">
+                <button class="buttonInMainHead">
+                    <h2 class="textInButton"><a name="Korean">Корейские</a></h2>
+                </button>
+                <P>(нажми для перехода)</P>
+            </form>
             <ul class="list">
                 <li><img src="/source/img/Korean/hyundai.png" class="imgForList">Hyundai</li>
                 <li><img src="/source/img/Korean/ssangyong-logo-png-transparent.png" class="imgForList">Ssang Yong</li>
                 <li><img src="/source/img/Korean/daewoo.png" class="imgForList">Daewoo</li>
                 <li><img src="/source/img/Korean/kia.png" class="imgForList">Kia</li>
             </ul>
-            <h2><a name="American">Американские</a></h2>
+            <form action="">
+                <button class="buttonInMainHead">
+                    <h2 class="textInButton"><a name="American">Американские</a></h2>
+                </button>
+                <P>(нажми для перехода)</P>
+            </form>
             <ul class="list">
                 <li><img src="/source/img/American/ford.png" class="imgForList">Ford</li>
                 <li><img src="/source/img/American/buick.png" class="imgForList">Buick</li>
