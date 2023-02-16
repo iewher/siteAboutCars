@@ -8,23 +8,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table class="table">
-        <tr class="td">
-            <td><a href="Index.html">Главная</a></td>
-            <td>Каталог</td>
-            <td><a href="info.html">Информация</a></td>
-        </tr>
-    </table>
+    <div class="mainHead">
+        <form action="/Index.html">
+            <button class="buttonInMainHead">
+                <h2 class="textInButton">Главная</h2>
+            </button>
+        </form>
+        <form action="/catalog.html">
+            <button class="buttonInMainHead">
+                <h2 class="textInButton">Каталог</h2>
+            </button>
+        </form>
+        <form action="/info.html">
+            <button class="buttonInMainHead">
+                <h2 class="textInButton">Информация</h2>
+            </button>
+        </form>
+    </div>
     <div class="block">
         <div class="head">
             <h1>Лучший сайт c информацией про автомобили</h1>
             <h2>Каталог</h2>
         </div>
         <div class="head">
+            <h2>Быстрая навигация</h2>
+            <table class="table">
+                <tr class="td">
+                    <td><a href="#Chinese">Китайские</a></td>
+                    <td><a href="#Japanese">Японские</a></td>
+                    <td><a href="#Russian">Российские</a></td>
+                </tr>
+            </table>
+            <table class="table">
+                <tr class="td">
+                    <td><a href="#German">Немецкие</a></td>
+                    <td><a href="#European">Европейские</a></td>
+                    <td><a href="#Korean">Корейские</a></td>
+                </tr>
+            </table>
+            <table class="table">
+                <tr class="td">
+                    <td><a href="#American">Американские</a></td>
+                </tr>
+            </table>
+            <p>(нажми для быстрого перехода)</p>
             <h2>Марки автомобилей:</h2>
         </div>
         <div class="head">
-            <h2>Китайские</h2>
+            <h2><a name="Chinese">Китайские</a></h2>
             <p>Изветстные китайские производители:</p>
             <ul class="list">
                 <li><img src="/source/img/Chinese/chery.png" class="imgForList">Chery</li>
@@ -35,7 +66,7 @@
                 <li><img src="/source/img/Chinese/saic.png" class="imgForList">SAIC</li>
                 <li><img src="/source/img/Chinese/baw.png" class="imgForList">BAW </li>
             </ul>
-            <h2>Японские</h2>
+            <h2><a name="Japanese">Японские</a></h2>
             <ul class="list">
                 <li><img src="/source/img/Japanese/honda.png" class="imgForList">Honda</li>
                 <li><img src="/source/img/Japanese/toyota.png" class="imgForList">Toyota</li>
@@ -48,6 +79,52 @@
                 <li><img src="/source/img/Japanese/infinity.png" class="imgForList">Infiniti</li>
                 <li><img src="/source/img/Japanese/lexus.png" class="imgForList">Lexus</li>
                 <li><img src="/source/img/Japanese/mazda.png" class="imgForList">Mazda</li>
+            </ul>
+            <h2><a name="Russian">Российские</a></h2>
+            <ul class="list">
+                <li><img src="/source/img/Russian/vaz.png" class="imgForList">ВАЗ</li>
+                <li><img src="/source/img/Russian/gaz.png" class="imgForList">ГАЗ</li>
+                <li><img src="/source/img/Russian/moscvich.png" class="imgForList">Москвич</li>
+                <li><img src="/source/img/Russian/uaz.png" class="imgForList">УАЗ</li>
+            </ul>
+            <h2><a name="German">Немецкие</a></h2>
+            <ul class="list">
+                <li><img src="/source/img/German/audi.png" class="imgForList">Audi</li>
+                <li><img src="/source/img/German/bmw.png" class="imgForList">BMW</li>
+                <li><img src="/source/img/German/merc.png" class="imgForList">Mercedes-Benz</li>
+                <li><img src="/source/img/German/opel.png" class="imgForList">Opel</li>
+                <li><img src="/source/img/German/volkswagen.png" class="imgForList">Volkswagen</li>
+                <li><img src="/source/img/German/porsche.png" class="imgForList">Porsche</li>
+            </ul>
+            <h2><a name="European">Европейские</a></h2>
+            <ul class="list">
+                <li><img src="/source/img/European/rolls royce.png" class="imgForList">Rolls-Royce</li>
+                <li><img src="/source/img/European/rover.png" class="imgForList">Rover</li>
+                <li><img src="/source/img/European/ferrari.png" class="imgForList">Ferrari</li>
+                <li><img src="/source/img/European/fiat.png" class="imgForList">Fiat</li>
+                <li><img src="/source/img/European/renault.png" class="imgForList">Renault</li>
+                <li><img src="/source/img/European/Peugeot.png" class="imgForList">Peugeot</li>
+                <li><img src="/source/img/European/citroen.png" class="imgForList">Citroen</li>
+                <li><img src="/source/img/European/volvo.png" class="imgForList">Volvo</li>
+            </ul>
+            <h2><a name="Korean">Корейские</a></h2>
+            <ul class="list">
+                <li><img src="/source/img/Korean/hyundai.png" class="imgForList">Hyundai</li>
+                <li><img src="/source/img/Korean/ssangyong-logo-png-transparent.png" class="imgForList">Ssang Yong</li>
+                <li><img src="/source/img/Korean/daewoo.png" class="imgForList">Daewoo</li>
+                <li><img src="/source/img/Korean/kia.png" class="imgForList">Kia</li>
+            </ul>
+            <h2><a name="American">Американские</a></h2>
+            <ul class="list">
+                <li><img src="/source/img/American/ford.png" class="imgForList">Ford</li>
+                <li><img src="/source/img/American/buick.png" class="imgForList">Buick</li>
+                <li><img src="/source/img/American/hummer.png" class="imgForList">Hummer</li>
+                <li><img src="/source/img/American/gmc.png" class="imgForList">GMC</li>
+                <li><img src="/source/img/American/cadillac.png" class="imgForList">Cadillac</li>
+                <li><img src="/source/img/American/chevrolet.png" class="imgForList">Chevrolet</li>
+                <li><img src="/source/img/American/chysler.png" class="imgForList">Chrysler</li>
+                <li><img src="/source/img/American/pontiac.png" class="imgForList">Pontiac</li>
+                <li><img src="/source/img/American/tesla.png" class="imgForList">Tesla</li>
             </ul>
         </div>
     </div>
