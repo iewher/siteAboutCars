@@ -63,10 +63,10 @@ form {
     line-height: 1.5;
 }
 
-.block {
+.block, .blockJapanese, .blockGerman, .blockEuropean, .blockAmerican, .blockChinese, .blockRussian, .blockKorean {
     background-color: white;
     width: 900px;
-    height: 3550px;
+    height: 5900px;
     border: 2px white solid;
     border-radius: 25px;
     text-align: center;
@@ -74,6 +74,34 @@ form {
     margin-top: 50px;
     margin-bottom: 100px;
     vertical-align: top;
+}
+
+.blockJapanese {
+    height: 4150px;
+}
+
+.blockGerman {
+    height: 6500px;
+}
+
+.blockEuropean {
+    height: 2350px;
+}
+
+.blockAmerican {
+    height: 3150px;
+}
+
+.blockChinese {
+    height: 3200px;
+}
+
+.blockRussian {
+    height: 3650px;
+}
+
+.blockKorean {
+    height: 5950px;
 }
 
 .text {
@@ -91,3 +119,20 @@ form {
     width: 64px;
     height: 32px;
 }
+
+p {
+    padding: 3em;
+    line-height: 2.2;
+}
+
+img {
+    width: 700px;
+    border-radius: 8px;
+}
+
+li {
+    padding: 1em;
+}
+
+
+
